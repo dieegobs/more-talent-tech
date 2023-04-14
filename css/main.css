@@ -26,6 +26,10 @@
   font-style: normal;
   font-display: fallback;
 }
+h1 {
+  color: var(--red);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,4 +41,13 @@
 html {
   font-size: 62.5%;
   font-family: "Atyp BL Text";
+}
+
+:root {
+  --black: #1C1C1F;
+  --gray: #606272;
+  --gray02: #989BA7;
+  --white: #FFFFFF;
+  --red: #F04264;
+  --yellow: #F7B40D;
 }/*# sourceMappingURL=main.css.map */
